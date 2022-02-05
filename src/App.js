@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 export function Topbread(){
-  const breadstyle ={
+  const breaddeco ={
     backgroundColor: "goldenrod",
     width:"200px",
     margin:"0 auto",
@@ -17,14 +17,14 @@ export function Topbread(){
     alignItems:"center",
     };
     return<> 
-  <div style={breadstyle}>
+  <div style={breaddeco}>
   <h2>topbread</h2>
   </div>
   </>
 }
 
 export function Tomato(){
-  const tom ={
+  const tomdeco ={
     backgroundColor: "red",
     width:"200px",
     margin:"0 auto",
@@ -32,7 +32,7 @@ export function Tomato(){
     marginBottom:"-17px"
   };
   return<> 
-   <div style={tom}>
+   <div style={tomdeco}>
   <h2>tomato</h2>
   </div>
   </>
